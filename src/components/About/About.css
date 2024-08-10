@@ -1,0 +1,150 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+
+.about-title {
+    position: relative;
+}
+
+.about-title h1 {
+    padding: 0px 30px;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.about-title img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    height: 50px;
+}
+
+.about-sections {
+    display: flex;
+    gap: 60px;
+}
+
+.about-sections .about-left img {
+    height: 65vh;
+    width: 55vh;
+    max-width: 380px;
+    border-radius: 12px;
+}
+
+.about-right {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.about-para {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.about-skills {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-skill {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.about-skill p {
+    min-width: 150px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.about-skill hr {
+    outline: none;
+    border: none;
+    width: 50%;
+    height: 8px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #5869eb 0.36%, #be34e4 102.06%);
+}
+
+.about-skill:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+/* Tablet Screens */
+@media(max-width:1024px) {
+    .about {
+        margin: 80px 100px;
+    }
+    .about-sections {
+        gap: 40px;
+    }
+    .about-skill p {
+        font-size: 16px;
+    }
+}
+
+/* Mobile Screens */
+@media(max-width:768px) {
+    .about {
+        gap: 50px;
+        margin: 50px 30px;
+        align-items: center;
+    }
+    .about-title h1 {
+        font-size: 50px;
+        padding: 0;
+    }
+    .about-title img {
+        width: 130px;
+        right: -20px;
+    }
+    .about-sections {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .about-left {
+        display: none;
+    }
+    .about-para {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .about-skill {
+        gap: 20px;
+        align-items: center;
+    }
+    .about-skill p {
+        font-size: 20px;
+    }
+}
+
+/* Small Mobile Screens */
+@media(max-width:480px) {
+    .about {
+        margin: 40px 20px;
+    }
+    .about-title h1 {
+        font-size: 40px;
+    }
+    .about-skill p {
+        font-size: 18px;
+    }
+    .about-para {
+        font-size: 16px;
+    }
+}

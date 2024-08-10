@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background: radial-gradient(125% 125% at 50% 10%, #000000 40%, rgb(22, 4, 60) 100%);
+    color: white;
+    font-family: "Outfit", sans-serif;
+}
+
+::-webkit-scrollbar {
+    height: 15px;
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(20, 20, 20, 0.2);
+    border-radius: 0ex;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(267deg, #5869eb 0.36%, #be34e4 102.06%);
+    border-radius: 1ex;
+}
