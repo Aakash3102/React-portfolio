@@ -36,5 +36,11 @@ export const PROJECT = [
         image: project4,
         link: "https://shoes-websites.netlify.app/",
     },
+    {
+        id: 6,
+        title: "Flavaro",
+        image: project6,
+        link: "https://flavaro.netlify.app/",
+    },
 ]
 
