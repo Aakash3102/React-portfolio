@@ -38,10 +38,15 @@ const About = () => {
                         </div>
 
                         <div className='about-skill'>
-                            <p>React JS/ Redux Toolkit</p>
+                            <p>React JS</p>
                             <hr style={{width:"60%"}} />
                         </div>
 
+                        <div className='about-skill'>
+                            <p>Redux Toolkit</p>
+                            <hr style={{width:"50%"}} />
+                        </div>
+                        
                         <div className='about-skill'>
                             <p>Bootstrap</p>
                             <hr style={{width:"40%"}} />
