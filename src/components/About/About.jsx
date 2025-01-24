@@ -20,7 +20,7 @@ const About = () => {
                 <div className='about-right'>
                     <div className='about-para'>
                         <p>
-                            I am a fresher Frontend Developer with professional expertise in these field. Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.
+                            I am a fresher Frontend Developer with a strong foundation in the field. Although I am just starting my career, I have gained valuable knowledge through training and projects, and I am eager to contribute and grow in the field of frontend development.
                         </p>
                         <p>
                             My passion for frontend development is not only reflected in my extensive experience but also in the enthusiasm and dedication I bring to each project.</p>
